@@ -1,0 +1,3 @@
+CREATE DATABASE bancosistema;
+USE bancosistema;
+CREATE TABLE infouser (id INT PRIMARY KEY AUTO_INCREMENT, login CHAR (10) NOT NULL, senha CHAR (10) NOT NULL, nome VARCHAR (30) NOT NULL, email VARCHAR (40) NOT NULL, cpf CHAR (11) NOT NULL, rg CHAR (7) NOT NULL, idade INT (3) NOT NULL, nomemae VARCHAR (30) NOT NULL, nomepai VARCHAR (30) NOT NULL, nascimento CHAR (8));
